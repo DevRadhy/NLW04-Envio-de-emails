@@ -1,0 +1,64 @@
+<style>
+  .cointainer {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .level {
+    width: 350px;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+  }
+
+  .answers {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .value {
+    text-decoration: none;
+
+    background: #8257e6;
+    color: #ffffff;
+
+    padding: 10px;
+
+    border-radius: 6px;
+    width: 15px;
+    text-align: center;
+  }
+</style>
+
+<div class="cointainer">
+  <label>Olá <strong>{{ name }}</strong>! Tudo bem?</label>
+
+  <h3>{{ title }}</h3>
+  <strong>{{ description }}</strong>
+
+  <div class="level">
+    <span>Pouco provável</span>
+    <span>Muito provável</span>
+  </div>
+
+  <div class="answers">
+    <a href="{{ link }}/answers/1/?user={{ id }}" class="value">1</a>
+    <a href="{{ link }}/answers/2/?user={{ id }}" class="value">2</a>
+    <a href="{{ link }}/answers/3/?user={{ id }}" class="value">3</a>
+    <a href="{{ link }}/answers/4/?user={{ id }}" class="value">4</a>
+    <a href="{{ link }}/answers/5/?user={{ id }}" class="value">5</a>
+    <a href="{{ link }}/answers/6/?user={{ id }}" class="value">6</a>
+    <a href="{{ link }}/answers/7/?user={{ id }}" class="value">7</a>
+    <a href="{{ link }}/answers/8/?user={{ id }}" class="value">8</a>
+    <a href="{{ link }}/answers/9/?user={{ id }}" class="value">9</a>
+    <a href="{{ link }}/answers/10/?user={{ id }}" class="value">10</a>
+  </div>
+
+  <strong>Sua opnião é muito importante para nós</strong>
+  <h3>Equipe | <strong>NLW</strong></h3>
+</div>
