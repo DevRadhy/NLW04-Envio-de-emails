@@ -9,7 +9,7 @@ Você pode navegar usando os links abaixo:
 
 ## Description
 
-API para envio de emails, desenvolviada durando o envento NLW#04 da **Rocketseat**.
+API para envio de emails, desenvolvida durante o evento NLW#04 da **Rocketseat**.
 
 ## Tecnologias
 
